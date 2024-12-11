@@ -7,6 +7,7 @@
 - **Application Server**: This middle part manages the business logic and processes user actions. For example, it checks the inventory to see if a product is in stock or updates a user's account details.
 
 - **Database Server**: This is the back-end part that stores all the data for the application. It uses databases like MySQL or PostgreSQL to keep track of information.
+![3tierarchitecture](https://github.com/user-attachments/assets/fce87395-0e00-4758-8d5b-af8ddb0f5f28)
 
 
 
