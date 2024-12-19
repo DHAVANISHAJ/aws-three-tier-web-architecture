@@ -62,7 +62,7 @@ Update the `**application-code/app-tier/DbConfig.js**` file with your database c
 Install Node.js and PM2:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/avizway1/aws_3tier_architecture/main/install.sh | bash
+curl -o- https://raw.githubusercontent.com/Dhavanisha jegannathan/aws-three-tier-web-architecture/main/install.sh | bash
 source ~/.bashrc
 
 nvm install 16
