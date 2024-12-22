@@ -13,7 +13,7 @@
 Download the code from the Git repository:
 
 ```bash
-git clone https://github.com/avizway1/aws_3tier_architecture.git
+git clone https://github.com/DHAVANISHAJ/aws-three-tier-web-architecture.git
 ```
 
 ## App Server Setup: Launch an ec2 instance in APP subnet of Custom VPC
@@ -75,7 +75,7 @@ Download application code from S3 and start the application:
 
 ```bash
 cd ~/
-aws s3 cp s3://3tierproject-avinash/application-code/app-tier/ app-tier --recursive
+aws s3 cp s3://3tierproject-dhavanisha/application-code/app-tier/ app-tier --recursive
 
 cd ~/app-tier
 npm install
@@ -116,7 +116,7 @@ nvm install 16
 nvm use 16
 
 cd ~/
-aws s3 cp s3://3tierproject-avinash/application-code/web-tier/ web-tier --recursive
+aws s3 cp s3://3tierproject-dhavanisha/application-code/web-tier/ web-tier --recursive
 
 cd ~/web-tier
 npm install
@@ -132,7 +132,7 @@ cd /etc/nginx
 ls
 
 sudo rm nginx.conf
-sudo aws s3 cp s3://3tierproject-avinash/application-code/nginx.conf .
+sudo aws s3 cp s3://3tierproject-dhavanisha/application-code/nginx.conf .
 
 sudo service nginx restart
 
