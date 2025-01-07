@@ -90,7 +90,7 @@ In this architecture, we have three main layers:
 #### Amazon Route 53
 - **Purpose**: Manages DNS records and directs user traffic to the appropriate AWS resources, optimizing for performance and reliability.
 - **Implementation**:
-  - **DNS Management**: Route 53 handles DNS queries for the domain `learnaws.co.in`, translating it into IP addresses for your Application Load Balancer.
+  - **DNS Management**: Route 53 handles DNS queries for the domain `dhavanisha.site`, translating it into IP addresses for your Application Load Balancer.
   - **Traffic Routing**: Route 53 directs client requests to the public-facing Application Load Balancer based on DNS records.
   - **Health Checks and Failover**: Optionally, Route 53 performs health checks on your endpoints and can automatically reroute traffic to healthy resources if needed.
 
