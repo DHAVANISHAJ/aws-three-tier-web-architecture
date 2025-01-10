@@ -83,7 +83,7 @@ In this architecture, we have three main layers:
 #### AWS Certificate Manager (ACM)
 - **Purpose**: Manages SSL/TLS certificates to secure data in transit between clients and your application, ensuring encrypted communication.
 - **Implementation**:
-  - **Certificate Provisioning**: ACM provides and manages SSL/TLS certificates for your domain `learnaws.co.in`.
+  - **Certificate Provisioning**: ACM provides and manages SSL/TLS certificates for your domain `dhavanisha.site`.
   - **Certificate Deployment**: The ACM certificates are associated with the public-facing Application Load Balancer (ALB) to enable HTTPS traffic.
   - **Automatic Renewal**: ACM automatically renews certificates before they expire, ensuring uninterrupted secure connections.
 
