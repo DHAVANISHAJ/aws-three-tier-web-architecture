@@ -1,5 +1,8 @@
 ## Three-Tier Web Architecture: Step-by-Step Process
 
+https://drive.google.com/file/d/1rh8a4TZggrkULWUYG65hs95npj9thiln/view?usp=sharing
+
+
 # Tier Architecture explanation
 
 - **Web Server**: This is the front part of a web application that displays the website to users. It handles how the site looks and interacts with users, like showing product pages or allowing people to sign up.
